@@ -151,6 +151,9 @@ section > h1{
     display: flex;
     justify-content: center;
 }
+.students{
+    margin-bottom: 20px;
+}
 .cards-container{
     display: flex;
     flex-wrap: wrap;
@@ -206,11 +209,31 @@ section > h1{
 .students > h1{
     padding: 20px 0;
 }
-footer{
+.gallery{
     background-color: var(--color-gunmetal);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.gallery h1{
+    color: var(--color-white-1);
+}
+.gallery-img{
+    width: 40%;
+}
+.gallery-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: var(--color-cyan-2);
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    padding-top: 15px;
     gap: 150px;
 }
 footer ul{
@@ -230,13 +253,7 @@ iframe{
     width: 10%;
     height: 30%;
 }
-.gallery-img{
-    width: 30%;
-}
-.gallery-div{
-    display: flex;
-    justify-content: center;
-}
+
 
 @media (width <=576px){
     footer{
